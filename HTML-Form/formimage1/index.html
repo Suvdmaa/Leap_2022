@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <div class="whole-container">  
+        <div class="first-container">
+            <h1>Travel reservation form</h1>
+            <p>&ast; denotes mandotory</p>
+        </div>
+        <div class="second-container">
+          <div class="bot">
+             <p>Full name&ast;:</p>
+             <input type="text" name="full-name" placeholder="FirstName LastName">
+          </div>
+          <div class="bot">
+             <p>Email address&ast;:</p>
+             <input type="email" name="email" placeholder="Email-Address">
+          </div>
+          <div class="bot">
+             <p>Select Tour Package&ast;:</p>
+             <select name="tour">
+               <option value="goa">Goa</option>
+               <option value="hawaii">Hawaii</option>
+               <option value="greece">Greece</option>
+             </select>
+          </div>
+          <div class="bot">
+             <input type="date" name="datetime">
+          </div>
+          <div class="bot">
+             <input type="number" name="number-of-person" placeholder="UNKNOWN_TYPE" >
+          </div>
+          <div class="bot">
+             <p>What would you want to avail?&ast;</p>
+             <div class="inside-option">
+                <label for="boarding">Boarding</label>
+                <input type="checkbox" name="answer" value="boarding">
+                
+                <label for="fooding">Fooding</label>
+                <input type="checkbox" name="answer" value="fooding" >
+                 
+                <label for="sight-seeing">Sight seeing</label>
+                <input type="checkbox" name="answer" value="sight-seeing" >
+
+             </div>
+          </div>
+          <div class="bot">
+             <input type="number" name="number-of-code" placeholder="UNKNOWN_TYPE">
+         </div>
+
+          <div class="bot">
+             <p>Terms and conditions&ast;</p>
+             <select name="terms">
+                <option value="i-agree">I agree</option>
+                <option value="i-disagree">I disagree</option>
+             </select>
+          </div>
+          <div class="bot">
+           <button type="submit">Complete reservation</button> 
+          </div>
+         </div>
+      </div>
+    </form>
+</body>
+</html>

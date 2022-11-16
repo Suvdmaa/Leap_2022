@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1200px;
+    background-color: darkgray;
+}
+
+.whole-container{
+    margin: 5% 0 0 40%;
+}
+
+.first-container{
+    margin-bottom: 30px;
+}
+
+.bot{
+    margin: 10px 0;
+}
+
+.inside-option{
+    display: flex;
+    flex-direction: column;
+}
