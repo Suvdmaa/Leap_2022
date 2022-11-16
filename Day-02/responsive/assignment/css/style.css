@@ -1,0 +1,101 @@
+div{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1600px){
+    body{
+        background: rgb(224, 97, 118);
+    }
+
+    .remove-1{
+        display: none;
+    }
+
+    .box-1{
+        display: flex;
+        justify-content: center;
+        margin: 300px;
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+    body{
+        background: red;
+    }
+
+    .remove-2{
+        display:none;
+    }
+
+    .box-2{
+        display: flex;
+        justify-content: center;
+        margin: 300px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    body{
+        background: pink;
+    }
+
+    .remove-3{
+        display: none;
+    }
+
+    .box-3{
+        display: flex;
+        justify-content: center;
+        margin: 300px;
+    }   
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background: aqua;
+    }
+
+    .remove-4{
+        display: none;
+    }
+    
+    .box-4{
+        display: flex;
+        justify-content: center;
+        margin: 300px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    body{
+        background: yellow;
+    }
+
+    .remove-5{
+        display: none;
+    }
+    
+    .box-5{
+        display: flex;
+        justify-content: center;
+        margin: 300px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    body{
+        background: green;
+    }
+
+    .remove-6{
+        display: none;
+    }
+
+    .box-6{
+        display: flex;
+        justify-content: center;
+        margin: 300px;
+    }
+}
+

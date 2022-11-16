@@ -1,0 +1,26 @@
+body{
+    background-color: blue;
+}
+
+.image{
+    width: 1000px;
+    height: 800px;
+}
+
+.container div{
+    margin: 10px;
+    height: 300px;
+    display: inline-block;
+}
+
+.container{
+    display : flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+

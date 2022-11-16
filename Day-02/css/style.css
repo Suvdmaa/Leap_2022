@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: rgba(219, 149, 78, 0.743);
+    height: 100px;
+}
+
+.inside-container{
+    padding: 30px 30px;
+}
+
+
+
+input {
+    height: 30px;
+   
+    background-repeat: no-repeat;
+    width: 350px;
+    border: 3px solid rgba(193, 121, 48, 0.743)
+}
+
+.search-icon{
+    width: 25px;
+    
+}
