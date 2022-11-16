@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 600px;
+    height: 500px;
+    margin: 5% 20%;
+}
+
+.main{
+    width: 100%;
+    height: 90px;
+    background: red;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+form{
+    text-align: center;
+    border: 3px dashed red;
+    position: relative;
+}
+
+form div{
+    margin: 20px;
+}
+
+p{
+    margin-bottom: 20px;;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.inside{
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 33%;
+}

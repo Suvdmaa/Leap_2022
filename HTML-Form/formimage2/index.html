@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Welcome to the 24x7 Fitness Club : Courts Reservation Page!!</h1>
+    </div>
+    <div class="container">
+        <form>
+            <div class="box">
+                <div class="inside">
+                    <p>Member Demographics</p>
+                </div>
+                <div>
+                    <label for="name">Name</label>
+                <input type="text" name="full-name">
+                </div>
+                <div>
+                    <p>Are you a Member?</p>
+                    <input type="radio" name="member" value="member">
+                    <label for="member">Member</label>
+                    <input type="radio" name="non-member" value="non-member">
+                    <label for="non-member">Non-member</label>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="facility">Facility</label>
+                    <select name="facility" id="facility">
+                        <option value="badminton">Badminton</option>
+                        <option value="tenis">Tenis</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Select a reservation date and time:</p>
+                    <input type="date" name="date">
+                    <input type="datetime" name="datetime">
+                </div>
+                <div>
+                    <input type="radio" name="check" value="check">
+                    <label for="check">I agree to the club's reservation policy</label>
+                </div>
+                <div>
+                    <button type="submit" name="submit">SUBMIT</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
