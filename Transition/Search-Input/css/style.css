@@ -43,6 +43,6 @@ input{
     width: 0px;
 }
 
-input:hover{
-    width: 240px;
+.btn-move:hover{
+    width: 300px;
 }

@@ -19,8 +19,12 @@ section{
 
 .container-1{
     margin-bottom: 40px;
+    width: 80%;
 }
 
+.container-2{
+    width: 80%;
+}
 .main-img{
     width: 100%;
 }
