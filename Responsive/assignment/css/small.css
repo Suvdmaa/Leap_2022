@@ -1,0 +1,18 @@
+.right-side{
+    float: none;
+    width: 80%;
+    margin-left: 40px;
+}
+
+.left-side{
+    float: none;
+    width: 80%;
+}
+
+.baloon{
+    width: 80%;
+}
+
+.town{
+    width: 30%;
+}
