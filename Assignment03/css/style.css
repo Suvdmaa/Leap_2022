@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    max-width: 1500px;
+    margin: 1rem auto;
+}
+
+
+/* Header Section -----------------------------*/
+
+.logo{
+    width: 160px;
+    height: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    display : flex;
+    padding-right: 30px;
+    margin: 20px;
+}
+
+.header-text{
+    border: 1px solid grey;
+    padding: 10px;
+    margin-top: -13px;
+}
+/* Hero Section --------------------------------*/
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.container-2{
+    width: 500px; 
+}
+
+.container1{
+    width: 500px;
+    padding-top: 50px;
+}
+
+.main-img{ 
+    width: 700px;
+}
+
+h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.text{
+    margin-bottom: 40px;
+}
+
+.btn1{
+    background-color: rgb(91, 80, 211);
+    color: #fff;
+    padding: 15px;
+}
+
+.small-text{
+    margin-top: 30px;
+}
+
+/* Footer --------------*/
+
+.footerbox{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footerbox-2{
+    text-align: center;
+}
+
+.footerlogo{
+    width: 300px;
+    margin: 40px 40px;
+    background:rgba(184, 182, 182, 0.327);
+}
+
+.footertext{
+    background: #fff;
+    padding: 15px;
+    color: rgb(91, 80, 211);
+}
+
+.medium-text{
+    padding: 30px 0 10px 0;
+}
+
+.footersmall-text{
+    margin-bottom: 30px;
+}
+
+.footer{
+    padding-bottom: 30px;
+    background: rgba(229, 226, 226, 0.327);
+}
+
+footer{
+    background: rgba(229, 226, 226, 0.327);
+}
+
