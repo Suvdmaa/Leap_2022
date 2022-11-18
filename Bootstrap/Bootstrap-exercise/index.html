@@ -12,23 +12,25 @@
 
 
     <div class="container bg-dark">
-        <div class="row border border-white">
-            <div class="col-md-2 bg-dark text-white text-center">
+        <div class="row border border-white d-flex">
+            <div class="col-2 bg-dark text-white text-center">
                    Penguins
            </div>
-           <div class="col-md-8 bg-warning text-center">
-                   Menu
+           <div class="col-8 bg-warning text-center d-none d-md-block">
+                 Menu
            </div>
-                <button type="button" class="col-lg col-md-2  bg-dark text-white dropdown btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
-                Dropdown 
-                </button>
-                <ul class="dropdown-menu col-lg">
-                   <li><a class="dropdown-item" href="#">Link 1</a></li>
-                   <li><a class="dropdown-item" href="#">Link 2</a></li>
-                 <li><a class="dropdown-item" href="#">Link 3</a></li>
-                </ul>
+           <button type="button" class="col-2 bg-dark text-white dropdown btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+           <ul class="col-lg dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link 1</a></li> 
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+           </ul>    
        </div>
-
+       <div class="row">
+        <div class="col d-md-none d-md-block bg-warning" style="height: 100px;">
+            Menu
+        </div>
+       </div>
     
         <div class="row">
             <div class="col-md-2 bg-dark border border-white text-center">
@@ -73,22 +75,22 @@
                             </p> 
                         </div>
                         <div class="row my-5 border border-dark">
-                            <div class="col-md">
+                            <div class="col-md ">
                                 Settings
                             </div>
-                            <div class="col-md">
+                            <div class="col-md ">
                                 Toggle
                             </div>
-                            <div class="col-md">
+                            <div class="col-md ">
                                 Select
                             </div>
-                            <div class="col-md">
+                            <div class="col-md ">
                                 Input
                             </div>
-                            <div class="col-md btn btn-primary mx-1 my-3">
+                            <div class="col-lg btn btn-primary mx-1 my-3">
                                 Cancel Button
                             </div>
-                            <div class="col-md btn btn-primary mx-1 my-3">
+                            <div class="col-lg btn btn-primary mx-1 my-3">
                                 Save Button
                             </div>  
                         </div>
