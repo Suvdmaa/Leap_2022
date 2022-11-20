@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 body{
@@ -36,13 +35,12 @@ body{
 
 input{
     border: none;
-    background: none;
     outline: none;
-    transition: 1s;
     line-height: 40px;
-    width: 0px;
+    width: 0.5px;
 }
 
-.btn-move:hover{
+input:hover{
     width: 300px;
 }
+
