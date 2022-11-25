@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 200px auto;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 125, 125);
+}
+
+.shadow{
+    width: 100px;
+    height: 100px;
+}
+
+.box-1{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    z-index: 1;
+    transition: all 1s ;
+}
+
+.box-2{
+    position: absolute;
+    bottom: 140px;
+    left: 130px;
+    transition: all 1s ;
+}
+
+.box-3{
+    position: absolute;
+    top: 140px;
+    right: 130px;
+    transition: all 1s ;
+}
+
+.box-4{
+    position: absolute;
+    bottom: 140px;
+    right: 130px;
+    transition: all 1s ;
+}
+
+.shadow-1{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+}
+
+.shadow-2{
+    position: absolute;
+    top: 280px;
+    left: 130px;
+}
+
+.shadow-3{
+    position: absolute;
+    top: 140px;
+    right: 130px;
+}
+
+.shadow-4{
+    position: absolute;
+    top: 280px;
+    right: 130px;
+}
+
+div:hover > .box-1{
+    top: 0;
+    left: 0;
+    background-color: rgb(247, 75, 75);
+    z-index: 1;
+}
+div:hover > .box-2{
+    bottom: 0;
+    left: 0;
+    background-color: rgb(247, 75, 75);
+    z-index: 1;
+}
+
+div:hover > .box-3{
+    top: 0;
+    right: 0;
+    background-color: rgb(247, 75, 75);
+    z-index: 1;
+    
+}
+div:hover > .box-4{
+    bottom: 1px;
+    right: 0;
+    background-color: rgb(247, 75, 75);
+    z-index: 1;
+}
+div:hover > .shadow-1{
+    box-shadow: 0 0 10px;
+    background: white;
+}
+div:hover > .shadow-2{
+    box-shadow: 0 0 10px;
+    background: white;
+}
+div:hover > .shadow-3{
+    box-shadow: 0 0 10px;
+    background: white;
+}
+div:hover > .shadow-4{
+    box-shadow: 0 0 10px;
+    background: white;
+}
+
+
+
+
+
