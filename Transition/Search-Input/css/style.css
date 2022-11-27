@@ -9,7 +9,7 @@ body{
 
 .search-container{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 30%;
     background: #fff;
     height: 40px;
@@ -40,7 +40,6 @@ input{
     width: 0.5px;
 }
 
-input:hover{
+div:hover > input{
     width: 300px;
 }
-
