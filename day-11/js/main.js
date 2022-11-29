@@ -13,7 +13,7 @@
 
 
 // /**
-//  * alert gargane
+//  * alert 
 //  * 
 //  * x'2 
 //  */
@@ -69,29 +69,29 @@
 
 // // Year of your birth
 
-// const yearofBirth = prompt('Give me your birth date');
-// const currentYear = 2022;
+const yearofBirth = prompt('Give me your birth date');
+const currentYear = 2022;
 
 
-// let old = (currentYear- yearofBirth);
-// console.log(old);
+let old = (currentYear- yearofBirth);
+console.log(old);
 
 
-// if( 0 <= old && old <= 1){
-//     console.log("Infant");
-// } else if( 1 < old && old <= 3 ){
-//     console.log("Toddler");
-// } else if (3 < old && old <= 5){
-//     console.log("Preschool");
-// } else if (5 < old && old <= 12){
-//     console.log("Gradeschooler");
-// } else if (12 < old && old <= 18){
-//     console.log("Teen");
-// } else if (18 < old && old <= 21){
-//     console.log("Young adult");
-// } else{
-//     console.log("Adult");
-// }
+if( 0 <= old && old <= 1){
+    console.log("Infant");
+} else if( 1 < old && old <= 3 ){
+    console.log("Toddler");
+} else if (3 < old && old <= 5){
+    console.log("Preschool");
+} else if (5 < old && old <= 12){
+    console.log("Gradeschooler");
+} else if (12 < old && old <= 18){
+    console.log("Teen");
+} else if (18 < old && old <= 21){
+    console.log("Young adult");
+} else{
+    console.log("Adult");
+}
 
 // let q = prompt("Give me a number");
 // let num = q % 2;
@@ -126,18 +126,18 @@ console.log(heightNumber);
 
 let w = weight / heightNumber;
 
-if( 18.5 < w  ){
-    console.log("Under Weight")
-} else if ( 18.5 > w && w > 24 ){
-    console.log("Normal")
-} else if ( 25 > w && w > 29.9 ){
-    console.log("Over Weight")
-}  else if (  30 > w  && w > 34.9 ){
-    console.log("Over Weight")
-}  else if ( 35 > w  && w > 39.9 ){
-    console.log("Normal")
+if( 18.5 > w ){
+    console.log("Under Weight");
+} else if ( 18.5 < w && w < 24 ){
+    console.log("Normal");
+} else if ( 25 < w && w < 29.9 ){
+    console.log("Over Weight");
+}  else if (  30 < w  && w < 34.9 ){
+    console.log("Over Weight");
+}  else if ( 35 < w  && w < 39.9 ){
+    console.log("Normal");
 } else {
-    console.log("Extreme Obesity")
+    console.log("Extreme Obesity");
 }
 
 
@@ -183,12 +183,14 @@ console.log(dayName);
 
 
 
-let n = prompt(Too);
+
+let n = prompt("Too ugnu uu");
 
 
-if (n <= 0 ){
+if (n > 0 ){
     console.log("positive");
 } else {
     console.log("negative");
 }
+
 
