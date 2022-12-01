@@ -179,6 +179,15 @@ sum = sum + count; // 10 + 5 = 25
 console.log(count); // 5
 console.log(sum); // 25
 
+count = count + 1; // 6
+sum = sum + count; // 25 + 6 = 31
+console.log(count); // 6
+console.log(sum); // 31
+
+count = count + 1; // 7
+sum = sum + count; // 31 + 7 = 38
+console.log(count); // 7
+console.log(sum); // 38
 
 
 
