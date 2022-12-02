@@ -14,9 +14,13 @@
 
 let n = Number(prompt("Give me  number"));
 
-while(n <= 100){
+while(n <= 100){ 
+    console.log(n);
+    n++
     if(n / n == 1){
         console.log(n);
+        
     }
-    n++;
 }
+
+console.log(Number.IsInteger(n));

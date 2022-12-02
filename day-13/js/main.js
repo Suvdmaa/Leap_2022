@@ -157,41 +157,53 @@ while (count <= max){
 count = count + 1; // 1
 sum = sum + count; // 0 + 1 = 1
 console.log(count); // 1
-console.log(sum); // 1
+console.log(sum); // 0
 
 count = count + 1; // 2
-sum = sum + count; // 1 + 2 = 3
+sum = sum + count; // 0 + 2 = 2
 console.log(count); // 2
-console.log(sum); // 3
+console.log(sum); // 2
 
 count = count + 1; // 3
-sum = sum + count; // 3 + 3 = 6
+sum = sum + count; // 2 + 3 = 5
 console.log(count); // 3
-console.log(sum); // 6
+console.log(sum); // 5
 
 count = count + 1; // 4
-sum = sum + count; // 6 + 4 = 10
+sum = sum + count; // 5 + 4 = 9
 console.log(count); // 4
-console.log(sum); // 10
+console.log(sum); // 9
 
 count = count + 1; // 5
-sum = sum + count; // 10 + 5 = 25
+sum = sum + count; // 9 + 5 = 14
 console.log(count); // 5
-console.log(sum); // 25
+console.log(sum); // 14
 
 count = count + 1; // 6
-sum = sum + count; // 25 + 6 = 31
+sum = sum + count; // 14 + 6 = 20
 console.log(count); // 6
-console.log(sum); // 31
+console.log(sum); // 20
 
 count = count + 1; // 7
-sum = sum + count; // 31 + 7 = 38
+sum = sum + count; // 20 + 7 = 27
 console.log(count); // 7
-console.log(sum); // 38
+console.log(sum); // 27
 
 
+count = count + 1; // 8
+sum = sum + count; // 27 + 8 = 35
+console.log(count); // 7
+console.log(sum); // 35
 
+count = count + 1; // 9
+sum = sum + count; // 35 + 9 = 44
+console.log(count); // 9
+console.log(sum); // 44
 
+count = count + 1; // 10
+sum = sum + count; // 44 + 10 = 54
+console.log(count); // 10
+console.log(sum); // 54
 
 
 
