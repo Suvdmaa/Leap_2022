@@ -1,11 +1,14 @@
-let message = 'Hello Javascript';
-message = true;
-message = 200;
-console.log(message);
+let example = 12;
+console.log(example);
 
+example = "World";
+console.log(example);
 
-let nuuts;
-console.log(nuuts);
+example = true;
+console.log(example);
 
+let exampleName; 
+console.log(exampleName);
 
-
+exampleName = null;
+console.log(exampleName);
