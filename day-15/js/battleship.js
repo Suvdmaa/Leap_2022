@@ -10,14 +10,18 @@
 *
 */
 
-let guesses = 0;
-let isSunk = false;
-let hit = 0;
-let miss = 0;
+// let guesses = 0;
+// let isSunk = false;
+// let hit = 0;
 
-let location1 = 1;
-let location2 = 2;
-let location3 = 5;
+let locations = [false, false, true, true, true, false, false];
+
+for(let count = 0; count < locations.length ; count++){
+    console.log(locations[count]);
+}
+
+
+
 
 while(!isSunk){
     console.log("Game begins");
