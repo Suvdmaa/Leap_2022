@@ -27,7 +27,8 @@ let sum = 0, rem = 0, n = Number(prompt("Give me a number");
 for(; n > 0; n = Math.floor(n / 10)){
     rem = n % 10;
     sum = sum + rem;
+    console.log(sum);
 }
 
-console.log(sum);
+
 
