@@ -1,4 +1,4 @@
-let num = Number(prompt("Give number for row of pyramid"));     //  row of pyramid
+let num = Number(prompt("Give your number for pyramid's row"));     //  row of pyramid
 
 
 // Loop
