@@ -1,9 +1,13 @@
-let n = Number(prompt("Give me a number"));
+let n = Number(prompt("Give me your prime number"));
+let temp = 0;
 
-for(let i =1; i < 100; i++){
+for(let i = 2; i < Math.round(n/2); i++){
     if (n % i == 0){
-            console.log(i, "is not a prime number");
-        }
-        console.log(i, "is a prime number");
+        temp = temp + 1;
+    }
 }
-
+if(temp == 0){
+    console.log(`${n} is a prime number`);
+} else {
+    console.log("its a not prime number");
+}
