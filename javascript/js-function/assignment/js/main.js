@@ -5,9 +5,12 @@ function fullName(){
 fullName();
 
 // Declare a function  and now it takes firstName, lastName as a parameter and it returns your full - name.
-function nameExample (name){
-    return "Enkhbold" + name;
+let nameExample = function (name){
+    return name
 }
+
+nameExample = "Enkhbold Suvdmaa"
+console.log(nameExample)
 
 // Declare a function  and it takes two parameters and it returns sum.
 function exampleNumber (p1, p2){
