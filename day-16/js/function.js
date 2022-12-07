@@ -4,7 +4,6 @@ console.log("my function");
 function f(){
     console.log("Hello function");
 }
-f()
 
 // function call - функцыг duudah
 f();
