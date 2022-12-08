@@ -1,6 +1,6 @@
 const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
 
-console.log(shoppingCart)
+console.log(shoppingCart);
 
 // add 'Meat' in the beginning of your shopping cart if it has not been already added
 if(!shoppingCart.includes("Meat") ){
@@ -24,4 +24,4 @@ console.log(shoppingCart);
 
 // modify Tea to 'Green Tea'
 shoppingCart.splice(3, 1, "Green tea")
-console.log(shoppingCart)
+console.log(shoppingCart);
