@@ -10,35 +10,65 @@ let carBrands = [
     ["Lamborghini", "Italy", 2016],
     ];
 
-//1. машины брэндийн эхний үсгээр хайх
-let search = prompt("Машины брэндийг эхний үсэг өгөөрэй").toUpperCase();
+// //1. машины брэндийн эхний үсгээр хайх
+// let search = prompt("Машины брэндийг эхний үсэг өгөөрэй").toUpperCase();
 
-function searchBrand (a){
-    for(let i = 0; i < carBrands.length; i++){
-        if(carBrands[i][0][0] == a){ 
-            console.log(`brand: ${carBrands[i][0]} \ncountry: ${carBrands[i][1]} \nyear: ${carBrands[i][2]}`);
-        } 
-    }
-}
+// function searchBrand (a){
+//     for(let i = 0; i < carBrands.length; i++){
+//         if(carBrands[i][0][0] == a){ 
+//             console.log(`brand: ${carBrands[i][0]} \ncountry: ${carBrands[i][1]} \nyear: ${carBrands[i][2]}`);
+//         } 
+//     }
+// }
 
-searchBrand(search);
+// searchBrand(search);
 
-//2. машины үйлвэрлэсэн улсаар хайх
-let search1= prompt("Машины үйлвэрлэсэн улсаар хайх");
+// //2. машины үйлвэрлэсэн улсаар хайх
+// let search1= prompt("Машины үйлвэрлэсэн улсаар хайх");
 
-function searchCity (b){
-    for(let i = 0; i < carBrands.length; i++){
-        if(carBrands[i][1] == b){
-            console.log(carBrands[i]);
-        }
-    }
-}
- searchCity(search1);
+// function searchCity (b){
+//     for(let i = 0; i < carBrands.length; i++){
+//         if(carBrands[i][1] == b){
+//             console.log(carBrands[i]);
+//         }
+//     }
+// }
+//  searchCity(search1);
 
 // 3. нийт хэдэн ширхэг мөр дата байгаа, хэдэн улсын brand байгааг харуулах
-let dataRow = carBrands.length;
-let sum = 0;
+
+let count = {};
+let sum = '';
+
+
+carBrands.forEach(element => {
+    for(let i = 0; i < carBrands.length; i++){
+        count[element] = (count[element] || 0) + 1
+      
+    }
+})
+
+console.log(count)
+
+
 for(let i = 0; i < carBrands.length; i++){
-    sum = sum + carBrands[i];
-    console.log(sum)
+    if(carBrands[i][1]){
+        sum = carBrands[i][1];
+        console.log(sum)
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+console.log(`Нийт ${carBrands.length} мөр дата,`)
+/// 
+
+
