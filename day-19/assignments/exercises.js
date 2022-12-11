@@ -47,7 +47,7 @@ function findOlderStudents(array){
 }
 function findStudentsAge(array){
     for(let i = 0; i < array.length; i++){
-            console.log(2022 - array[i].birthOfYear)
+        console.log(2022 - array[i].birthOfYear)
      
     }
 }
