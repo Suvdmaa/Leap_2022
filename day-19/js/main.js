@@ -47,13 +47,8 @@ let newTeacher = Object.create({
 console.log(newTeacher);
 
 Object.assign({
-
+    
 }, newTeacher)
 
 
 
-// assignment
-let dog = {}
-
-
-// animals ---------------

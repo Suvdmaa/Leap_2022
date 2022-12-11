@@ -10,7 +10,7 @@ let students=[
     gender: "female"
 },
     {
-    name: 'Хатнаа ',
+    name: 'Хатнаа',
     age: 21,
     gender: "male"
 },
@@ -41,12 +41,43 @@ for(let i = 0; i < students.length; i++){
 
 console.log(`Ангид ${count} эрэгтэй , ${sum} эмэгтэй байна.`);
 
+
 //  Сурагчдын насны дунджийг олох функц бичих
-function sumOfStudentsAge (array){
-    return array + num;
+let sumOfStudentsAge = (array) => {
+    let sum = 0;
+    for(let i = 0; i < array.length; i++){
+        sum = sum + array[i].age;
+    }
+    const average = sum / array.length;
+    return average;
 }
 
-sumOfStudentsAge(students)
+console.log(sumOfStudentsAge(students));
+
+//  Сурагчидад овог нэмж оруулах 
+
+students[0].name = 'Эрдэнэ Сэд-Эрдэнэ';
+students[1].name = "Тод Индра";
+students[2].name = 'Зоригт Хатнаа';
+students[3].name = 'Болд Тэмүүлэн';
+students[4].name = 'Төмөрбаатар Намуун';
+
+
+
+console.log(students)
+// Ижилхэн настай сурагчдыг олж шинэ array дотор хийх 
+function findSameOldStudents (array){
+    for(let i = 0; i < array.length; i++){
+        for(let j = i+1; j < array.length; j++){
+            if(array[i].age == array[j].age)
+            console.log(array[i].age)
+        }
+    }
+}
+findSameOldStudents(students)
+
+
+
 
 
 

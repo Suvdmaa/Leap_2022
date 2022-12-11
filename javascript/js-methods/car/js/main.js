@@ -37,41 +37,11 @@ let carBrands = [
 
 // 3. нийт хэдэн ширхэг мөр дата байгаа, хэдэн улсын brand байгааг харуулах
 
-let count = {};
-let sum = '';
-
-
-carBrands.forEach(element => {
-    for(let i = 0; i < carBrands.length; i++){
-        count[element] = (count[element] || 0) + 1
-      
-    }
-})
-
-console.log(count)
-
-
-for(let i = 0; i < carBrands.length; i++){
-    if(carBrands[i][1]){
-        sum = carBrands[i][1];
-        console.log(sum)
-    }
-}
 
 
 console.log(`Нийт ${carBrands.length} мөр дата,`)
 
 
-let sum1 = 0;
-let sum2 = 0;
-for(let i = 0; i < carBrands.length; i++){
-    for(let j = 0; carBrands[i]; j++){
-        sum1 = carBrands[i][j] + 1;
-    }
-}
-
-console.log(sum1)
-console.log(sum2)
 /// 
 
 
