@@ -65,7 +65,8 @@ students[4].name = 'Төмөрбаатар Намуун';
 
 
 console.log(students)
-// Ижилхэн настай сурагчдыг олж шинэ array дотор хийх 
+// Ижилхэн настай сурагчдыг олж шинэ array дотор хийх  //
+
 function findSameOldStudents (array){
     for(let i = 0; i < array.length; i++){
         for(let j = i+1; j < array.length; j++){
@@ -74,7 +75,10 @@ function findSameOldStudents (array){
         }
     }
 }
+
 findSameOldStudents(students)
+
+
 
 
 
