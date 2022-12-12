@@ -1,14 +1,21 @@
 h1{
-    background-color: black;
     color: white;
     text-align: center;
+    text-shadow: 5px 5px rgb(157, 157, 157);
+    font-size: 60px;
+}
+body{
+    background-color: black;
 }
 
 #clock {
     font-size: 175px;
-    width: 900px;
+    width: 1000px;
     margin: 200px;
+    color: plum;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid plum;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(203, 118, 203);
+    text-shadow: 10px 10px rgb(199, 94, 199);
 }
