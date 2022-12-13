@@ -52,7 +52,7 @@ function runTimerInterval (){
 function startInterval(){
     let now = new Date();
     let myTimer = document.getElementById('myTimer');
-    myTimer.innerHTML = now.getSeconds();
+    myTimer.innerHTML = now.getHours() + ":" + now.getMinutes() + ':' + now.getSeconds() ;
     console.log("timer start")
 }
 
