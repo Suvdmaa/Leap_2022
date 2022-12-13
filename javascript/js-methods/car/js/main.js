@@ -10,30 +10,30 @@ let carBrands = [
     ["Lamborghini", "Italy", 2016],
     ];
 
-// //1. машины брэндийн эхний үсгээр хайх
-// let search = prompt("Машины брэндийг эхний үсэг өгөөрэй").toUpperCase();
+//1. машины брэндийн эхний үсгээр хайх
+let search = prompt("Машины брэндийг эхний үсэг өгөөрэй").toUpperCase();
 
-// function searchBrand (a){
-//     for(let i = 0; i < carBrands.length; i++){
-//         if(carBrands[i][0][0] == a){ 
-//             console.log(`brand: ${carBrands[i][0]} \ncountry: ${carBrands[i][1]} \nyear: ${carBrands[i][2]}`);
-//         } 
-//     }
-// }
+function searchBrand (a){
+    for(let i = 0; i < carBrands.length; i++){
+        if(carBrands[i][0][0] == a){ 
+            console.log(`brand: ${carBrands[i][0]} \ncountry: ${carBrands[i][1]} \nyear: ${carBrands[i][2]}`);
+        } 
+    }
+}
 
-// searchBrand(search);
+searchBrand(search);
 
-// //2. машины үйлвэрлэсэн улсаар хайх
-// let search1= prompt("Машины үйлвэрлэсэн улсаар хайх");
+//2. машины үйлвэрлэсэн улсаар хайх
+let search1= prompt("Машины үйлвэрлэсэн улсаар хайх");
 
-// function searchCity (b){
-//     for(let i = 0; i < carBrands.length; i++){
-//         if(carBrands[i][1] == b){
-//             console.log(carBrands[i]);
-//         }
-//     }
-// }
-//  searchCity(search1);
+function searchCity (b){
+    for(let i = 0; i < carBrands.length; i++){
+        if(carBrands[i][1] == b){
+            console.log(carBrands[i]);
+        }
+    }
+}
+ searchCity(search1);
 
 // 3. нийт хэдэн ширхэг мөр дата байгаа, хэдэн улсын brand байгааг харуулах
 
@@ -42,6 +42,6 @@ let carBrands = [
 console.log(`Нийт ${carBrands.length} мөр дата,`)
 
 
-/// 
+
 
 
