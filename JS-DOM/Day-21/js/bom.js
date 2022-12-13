@@ -37,6 +37,8 @@ setTimeout (() => {
 }, 5000)
 
 
+/// timer / start my timer
+
 let counter = 0;
 
 let startMyTimer = document.getElementById('clickbtn')
