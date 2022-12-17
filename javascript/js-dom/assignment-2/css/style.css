@@ -2,3 +2,10 @@ h1{
     background-color: aquamarine;
     text-align: center;
 }
+
+a{
+    border: 2px solid rgb(0, 140, 255);
+    color: rgb(0, 140, 255);
+    padding: 10px;
+    border-radius: 20px;
+}

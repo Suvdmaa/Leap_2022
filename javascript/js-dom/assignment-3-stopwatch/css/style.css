@@ -19,3 +19,11 @@ body{
     box-shadow: 10px 10px 10px rgb(203, 118, 203);
     text-shadow: 10px 10px rgb(199, 94, 199);
 }
+
+a{
+    border: 2px solid rgb(0, 140, 255);
+    color: rgb(0, 140, 255);
+    padding: 10px;
+    border-radius: 20px;
+
+}
