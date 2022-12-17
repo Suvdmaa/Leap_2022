@@ -35,12 +35,9 @@ function searchCity (b){
 }
  searchCity(search1);
 
+
+
 // 3. нийт хэдэн ширхэг мөр дата байгаа, хэдэн улсын brand байгааг харуулах
-
-
-
-
-
 let sumUK = 0; sumGer = 0; sumUSA = 0; sumIT = 0; sumJ = 0;
 
  for (let i = 0; i < carBrands.length; i++){
