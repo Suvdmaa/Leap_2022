@@ -39,9 +39,22 @@ function searchCity (b){
 
 
 
-console.log(`Нийт ${carBrands.length} мөр дата,`)
 
 
+let sumUK = 0; sumGer = 0; sumUSA = 0; sumIT = 0; sumJ = 0;
 
+ for (let i = 0; i < carBrands.length; i++){
+    if(carBrands[i][1] == "UK"){
+        sumUK++;
+    } else if (carBrands[i][1] == "Germany"){
+        sumGer++;
+    } else if (carBrands[i][1] == "USA"){
+        sumUSA++;
+    } else if (carBrands[i][1] == "Italy"){
+        sumIT++;
+    } else if (carBrands[i][1] == 'Japan'){
+        sumJ++;
+    }
+ }
 
-
+console.log(`Нийт ${carBrands.length} мөр дата, UK-${sumUK}, Germany-${sumGer}, USA-${sumUSA}, Italy-${sumIT}, Japan-${sumJ}`)
