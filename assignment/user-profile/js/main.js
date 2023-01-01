@@ -30,29 +30,20 @@
 //     </div>`
 // }
 
-const userProfileURL = `https://randomuser.me/api`;
-fetch(userProfileURL)
-.then(result => result.json())
-.then(data => {
-    console.log(data.results[0].picture.large)
-    const img = document.getElementById('image')
-    img.src = data.results[0].picture.large;
+// const userProfileURL = 'https://randomuser.me/api';
 
-    const profileName = document.getElementById('name');
-    profileName.innerHTML = `${data.results[0].name.title} ${data.results[0].name.first} ${data.results[0].name.last}`;
+// fetch(userProfileURL)
+// .then(result => result.json())
+// .then(data => {
+//     console.log(data.results[0].picture.large)
+//     const img = document.getElementById('image')
+//     img.src = data.results[0].picture.large;
 
-    document.getElementById('email').innerHTML = data.results[0].email;
+//     const profileName = document.getElementById('name');
+//     profileName.innerHTML = `${data.results[0].name.title} ${data.results[0].name.first} ${data.results[0].name.last}`;
 
-    document.getElementById('phone').innerHTML = data.results[0].phone;
+//     document.getElementById('email').innerHTML = data.results[0].email;
 
-
-
-
-
-    
-
-    
-
-
-
-})
+//     document.getElementById('phone').innerHTML = data.results[0].phone;
+  
+// })
