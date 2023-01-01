@@ -1,0 +1,12 @@
+h1{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 20px;;
+    padding: 10px;
+}
