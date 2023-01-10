@@ -75,13 +75,13 @@ if(num % 2 == 0){
 
 
 // 8. Нас тооцоолох бодлого: yearOfBirth гэсэн хувьсагчид гараас төрсөн онийг ав. Тухайн оноос тухайн хүний насыг нь бодож гаргаад үр дүнгээ old гэсэн хувьсагчид оноо. Насанд нь харгалзах утгыг хэвлэ.
-0 <= old <= 1 үед "Infant"  
-1 < old <= 3 үед "Toddler" 
-3 < old <= 5 үед "Preschool"
-5 < old <=12 үед "Gradeschooler"
-12 <old <= 18 үед "Teen"
-18 < old <=21 үед "Young adult"
-21 < old үед "Adult"
+// 0 <= old <= 1 үед "Infant"  
+// 1 < old <= 3 үед "Toddler" 
+// 3 < old <= 5 үед "Preschool"
+// 5 < old <=12 үед "Gradeschooler"
+// 12 <old <= 18 үед "Teen"
+// 18 < old <=21 үед "Young adult"
+// 21 < old үед "Adult"
 
 
 
